@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>.<ServiceAddRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages ServiceAddRS.xsd">
+<AuditData>
+  <ProcessTime>19</ProcessTime>
+  <Timestamp>2014-09-19 23:14:52.816</Timestamp>
+  <RequestHost>54.72.77.249</RequestHost>
+  <ServerName>FORM</ServerName>
+  <ServerId>FO</ServerId>
+  <SchemaRelease>2005/06</SchemaRelease>
+  <HydraCoreRelease>2014.07.9</HydraCoreRelease>
+  <HydraEnumerationsRelease>N/A</HydraEnumerationsRelease>
+  <MerlinRelease>N/A</MerlinRelease>
+</AuditData>
+<ErrorList>
+  <Error>
+    <Code>B99-99-045-FO</Code>
+    <Timestamp>1411161292816</Timestamp>
+    <Message>ERR_683</Message>
+    <DetailedMessage>Your session has expired. Sessions expire after 30 minutes. Your session has expired since it began 1250 minutes ago. Please enter your login details again.</DetailedMessage>
+  </Error>
+</ErrorList>
+</ServiceAddRS>

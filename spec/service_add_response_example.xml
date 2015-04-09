@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceAddRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages ServiceAddRS.xsd">
+  <AuditData>
+    <ProcessTime>327</ProcessTime>
+    <Timestamp>2014-09-18 02:29:32.065</Timestamp>
+    <RequestHost>54.72.77.249</RequestHost>
+    <ServerName>FORM</ServerName>
+    <ServerId>FO</ServerId>
+    <SchemaRelease>2005/06</SchemaRelease>
+    <HydraCoreRelease>2014.07.9</HydraCoreRelease>
+    <HydraEnumerationsRelease>N/A</HydraEnumerationsRelease>
+    <MerlinRelease>N/A</MerlinRelease>
+  </AuditData>
+  <Purchase purchaseToken="O3181176713" timeToExpiration="1799677">
+    <Status>SHOPPING_CART</Status>
+    <Agency>
+      <Code>146938</Code>
+      <Branch>2</Branch>
+    </Agency>
+    <Language>CAS</Language>
+    <CreationUser>CREATEUSER123</CreationUser>
+    <ServiceList>
+      <Service xsi:type="ServiceHotel" SPUI="69#H#1">
+        <Status>NEW</Status>
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+          <Contract>
+            <Name>PVP-TODOS</Name>
+            <IncomingOffice code="69">
+            </IncomingOffice>
+          </Contract>
+        </ContractList>
+        <Supplier name="CLUB TURAVIA SA DE CV" vatNumber="CTU940107CK8"/>
+        <DateFrom date="20140923"/>
+        <DateTo date="20140926"/>
+        <Currency code="MXN">Mexican Peso</Currency>
+        <TotalAmount>1200.000</TotalAmount>
+        <AdditionalCostList>
+          <Currency code="MXN">Mexican Peso</Currency>
+          <AdditionalCost type="AG_COMMISSION">
+            <Price>
+              <Amount>144.830</Amount>
+            </Price>
+          </AdditionalCost>
+          <AdditionalCost type="COMMISSION_VAT">
+            <Price>
+              <Amount>23.170</Amount>
+            </Price>
+          </AdditionalCost>
+          <AdditionalCost type="COMMISSION_PCT">
+            <Price>
+              <Amount>0.000</Amount>
+            </Price>
+          </AdditionalCost>
+        </AdditionalCostList>
+        <ModificationPolicyList>
+          <ModificationPolicy>Cancellation</ModificationPolicy>
+          <ModificationPolicy>Confirmation</ModificationPolicy>
+          <ModificationPolicy>Modification</ModificationPolicy>
+        </ModificationPolicyList>
+        <HotelInfo xsi:type="ProductHotel">
+          <Code>237551</Code>
+          <Name>Posada Los Arcos Holbox</Name>
+          <Category type="SIMPLE" code="H2_5">2 ESTRELLAS Y MEDIA</Category>
+          <Destination type="SIMPLE" code="CUN">
+            <Name>Cancun (y alrededores)</Name>
+            <ZoneList>
+              <Zone type="SIMPLE" code="60">Holbox</Zone>
+            </ZoneList>
+          </Destination>
+        </HotelInfo>
+        <AvailableRoom>
+          <HotelOccupancy>
+            <RoomCount>1</RoomCount>
+            <Occupancy>
+              <AdultCount>1</AdultCount>
+              <ChildCount>0</ChildCount>
+              <GuestList>
+                <Customer type="AD" isTravelAgent="N">
+                  <CustomerId>1</CustomerId>
+                  <Age>35</Age>
+                  <Name>Juan</Name>
+                  <LastName>Perez</LastName>
+                </Customer>
+              </GuestList>
+            </Occupancy>
+          </HotelOccupancy>
+          <HotelRoom SHRUI="ce0n+7n9ocusdEO1zzZ2OQ==" availCount="1" status="NEW">
+            <Board type="SIMPLE" code="RO-MX1">SOLO HABITACI&#211;N</Board>
+            <RoomType type="SIMPLE" code="DBL-MX1" characteristic="EC">DOBLE ECONOMICA</RoomType>
+            <ProductType>P</ProductType>
+            <Price>
+              <Amount>1200.000</Amount>
+            </Price>
+            <CancellationPolicies>
+              <CancellationPolicy amount="400.000" dateFrom="20140919" time="2359"/>
+            </CancellationPolicies>
+          </HotelRoom>
+        </AvailableRoom>
+      </Service>
+    </ServiceList>
+    <Currency code="MXN">
+    </Currency>
+    <PaymentData>
+      <PaymentType code="P">
+      </PaymentType>
+      <InvoiceCompany>
+      </InvoiceCompany>
+      <Description>UNKNOWN</Description>
+    </PaymentData>
+    <TotalPrice>1200.000</TotalPrice>
+    <PendingAmount>1032.000</PendingAmount>
+  </Purchase>
+</ServiceAddRS>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PurchaseCancelRQ echoToken="ruby8012345" type="<%= type %>"
+ xmlns="http://www.hotelbeds.com/schemas/2005/06/messages"
+ version="2013/12"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messagesPurchaseCancelRQ.xsd">
+  <Language>CAS</Language>
+  <Credentials>
+    <User>
+      <%= username %>
+    </User>
+    <Password>
+      <%= password %>
+    </Password>
+  </Credentials>
+  <PurchaseReference>
+    <FileNumber><%= service.file_number %></FileNumber>
+    <IncomingOffice code="<%= service.incoming_office_code %>"/>
+  </PurchaseReference>
+</PurchaseCancelRQ>

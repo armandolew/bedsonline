@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PurchaseConfirmRQ echoToken="ruby8012345"
+  xmlns="http://www.hotelbeds.com/schemas/2005/06/messages"
+  version="2013/12"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages PurchaseConfirmRQ.xsd">
+  <Language>CAS</Language>
+  <Credentials>
+       <User><%= username %></User>
+       <Password><%= password %></Password>
+   </Credentials>
+  <ConfirmationData purchaseToken="<%= purchase.token %>">
+    <Holder type="<%= service.holder.type %>">
+      <CustomerId><%= service.holder.id %></CustomerId>
+      <Age><%= service.holder.age %></Age>
+      <Name><%= service.holder.first_name %></Name>
+      <LastName><%= service.holder.last_name %></LastName>
+    </Holder>
+    <AgencyReference><%= purchase.agency_code %></AgencyReference>
+    <ConfirmationServiceDataList>
+      <ServiceData SPUI="<%= service.spui  %>" xsi:type="ConfirmationServiceDataHotel">
+        <CustomerList>
+          <% service.rooms.first.guests.each do |guest| %>
+          <Customer type="<%= guest.type %>">
+            <CustomerId><%= guest.id %></CustomerId>
+            <Age><%= guest.age %></Age>
+            <Name><%= guest.first_name %></Name>
+            <LastName><%= guest.last_name %></LastName>
+          </Customer>
+          <% end %>
+        </CustomerList>
+        <CommentList>
+          <Comment type="INCOMING">Comment for the incoming office and the hotel</Comment>
+          <Comment type="SERVICE">Comment showing on our voucher</Comment>
+        </CommentList>
+      </ServiceData>
+      </ConfirmationServiceDataList>￼￼￼￼
+  </ConfirmationData>￼
+</PurchaseConfirmRQ>

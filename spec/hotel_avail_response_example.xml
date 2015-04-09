@@ -1,0 +1,1296 @@
+<HotelValuedAvailRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages HotelValuedAvailRS.xsd" timeToExpiration="1799955" totalItems="320" echoToken="asdfasdf">
+    <AuditData>
+        <ProcessTime>333</ProcessTime>
+        <Timestamp>2014-08-27 18:27:55.891</Timestamp>
+        <RequestHost>54.72.12.1</RequestHost>
+        <ServerName>FORM</ServerName>
+        <ServerId>FO</ServerId>
+        <SchemaRelease>2005/06</SchemaRelease>
+        <HydraCoreRelease>2.0.201408271058</HydraCoreRelease>
+        <HydraEnumerationsRelease>1.0.201408271058</HydraEnumerationsRelease>
+        <MerlinRelease>N/A</MerlinRelease>
+    </AuditData>
+    <PaginationData currentPage="1" totalPages="16" />
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>PVP-TODOS</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NOR">STANDARD PRICING</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>135692</Code>
+            <Name>Hacienda de Castilla</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/13/135692/135692a_hb_a_001.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/13/135692/135692a_hb_w_002.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="20">Downtown</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="12" />
+            <Position latitude="21.16974599999999995248" longitude="-86.82951699999999561896" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="hrTwvMIZQWlmy6aF3/zyWg==" availCount="91" onRequest="N">
+                <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="ST">DOUBLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1350.000</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="OV4RNpjUV8dIKFtEB9QfcA==" availCount="91" onRequest="N">
+                <Board type="SIMPLE" code="AB-MX1" shortname="AB">AMERICAN BREAKFAST</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="ST">DOUBLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1570.200</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>CGW-TODOS PVP</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NOR">STANDARD PRICING</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>162749</Code>
+            <Name>Alux Cancun</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/16/162749/162749a_hb_a_004.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/16/162749/162749a_hb_w_001.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="2EST" shortname="2*">2 STARS</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="20">Downtown</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="12" />
+            <Position latitude="21.16474300000000141608" longitude="-86.82786500000000273758" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="KhWMg3WGE+rSXSjQdTQNtw==" availCount="2" onRequest="N">
+                <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+                <RoomType type="SIMPLE" code="SGL-MX1" characteristic="ST">SINGLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1484.130</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>PVP-TODOS</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NOR">STANDARD PRICING</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>237551</Code>
+            <Name>Posada Los Arcos Holbox</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/23/237551/237551a_hb_a_006.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/23/237551/237551a_hb_w_003.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="H2_5" shortname="2½*">2 STARS AND A HALF</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="60">Holbox</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="10" />
+            <Position latitude="21.52336931559800348168" longitude="-87.37926880846634958289" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="ce0n+7n9ocusdEO1zzZ2OQ==" availCount="10" onRequest="N">
+                <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="EC">DOUBLE ECONOMY</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1500.000</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="pooKnsxwBNup22nI/1T0Ag==" availCount="18" onRequest="N">
+                <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="ST">DOUBLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1800.000</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>CGW-TODOS</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NOR">STANDARD PRICING</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>135692</Code>
+            <Name>Hacienda de Castilla</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/13/135692/135692a_hb_a_001.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/13/135692/135692a_hb_w_002.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="20">Downtown</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="12" />
+            <Position latitude="21.16974599999999995248" longitude="-86.82951699999999561896" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="CG869xT6nMTi4EEi3vIN8w==" availCount="98" onRequest="N">
+                <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="ST">DOUBLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1501.380</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="NJUuE/+RVxJzUw1jNxG70w==" availCount="98" onRequest="N">
+                <Board type="SIMPLE" code="AB-MX1" shortname="AB">AMERICAN BREAKFAST</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="ST">DOUBLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1721.580</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>CGW-BUDGET</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NOR">STANDARD PRICING</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>140885</Code>
+            <Name>Del Sol</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/14/140885/140885a_hb_a_001.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/14/140885/140885a_hb_w_002.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="H2_5" shortname="2½*">2 STARS AND A HALF</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="20">Downtown</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="12" />
+            <Position latitude="21.03494923333101240814" longitude="-87.04389820462145621605" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="IQ6em6650QnE9sUT2bPinQ==" availCount="16" onRequest="N">
+                <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="BD">DOUBLE BUDGET</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1545.420</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>NRF-TODOS</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NRF">Non refundable rate</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>135692</Code>
+            <Name>Hacienda de Castilla</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/13/135692/135692a_hb_a_001.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/13/135692/135692a_hb_w_002.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="20">Downtown</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="12" />
+            <Position latitude="21.16974599999999995248" longitude="-86.82951699999999561896" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="wN7/I4sbFhm160q35V/MVw==" availCount="99" onRequest="N">
+                <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="ST">DOUBLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1601.460</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="HMbh+OkppjHvx/ZIagyENg==" availCount="99" onRequest="N">
+                <Board type="SIMPLE" code="AB-MX1" shortname="AB">AMERICAN BREAKFAST</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="ST">DOUBLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1821.660</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>CGW-MEXRO B2B</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NOR">STANDARD PRICING</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>134311</Code>
+            <Name>Imperial las Perlas</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/13/134311/134311a_hb_a_001.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/13/134311/134311a_hb_w_002.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="10">Hotel Zone / Zona Hotelera</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="11" />
+            <Position latitude="21.15577742972606500871" longitude="-86.79962539327141257672" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="rSgv6vpWXy3dLdIfIWBzOQ==" availCount="30" onRequest="N">
+                <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+                <RoomType type="SIMPLE" code="SGL-MX1" characteristic="ST">SINGLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1714.170</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>NRF-TODOS</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NRF">Non refundable rate</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>55373</Code>
+            <Name>Sotavento</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/05/055373/055373a_hb_a_001.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/05/055373/055373a_hb_a_009.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="10">Hotel Zone / Zona Hotelera</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="10" />
+            <Position latitude="21.14416599999999846204" longitude="-86.79068300000000135697" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="mqLJMFW5Tg4N6n/kPRkPJA==" availCount="20" onRequest="N">
+                <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+                <RoomType type="SIMPLE" code="SGL-MX1" characteristic="ST">SINGLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1717.890</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>CGW-MEXB2B</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NOR">STANDARD PRICING</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>34963</Code>
+            <Name>Soberanis Hostal</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/03/034963/034963a_hb_a_001.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/03/034963/034963a_hb_w_002.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="20">Downtown</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="10" />
+            <Position latitude="21.15773148177521179036" longitude="-86.82648604662705338342" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="SHODGIAqbf0qZFJy+D6sBQ==" availCount="30" onRequest="N">
+                <Board type="SIMPLE" code="CB-MX1" shortname="CB">CONTINENTAL BREAKFAST</Board>
+                <RoomType type="SIMPLE" code="SGL-MX1" characteristic="ST">SINGLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1751.610</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>CGW-TODOSB2B</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NOR">STANDARD PRICING</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>140885</Code>
+            <Name>Del Sol</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/14/140885/140885a_hb_a_001.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/14/140885/140885a_hb_w_002.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="H2_5" shortname="2½*">2 STARS AND A HALF</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="20">Downtown</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="12" />
+            <Position latitude="21.03494923333101240814" longitude="-87.04389820462145621605" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="MOQHA4LOmLKp9K6qbRWQkA==" availCount="8" onRequest="N">
+                <Board type="SIMPLE" code="CB-MX1" shortname="CB">CONTINENTAL BREAKFAST</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="ST">DOUBLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1801.650</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>CGW- MEXB2B</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NOR">STANDARD PRICING</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>55373</Code>
+            <Name>Sotavento</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/05/055373/055373a_hb_a_001.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/05/055373/055373a_hb_a_009.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="10">Hotel Zone / Zona Hotelera</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="10" />
+            <Position latitude="21.14416599999999846204" longitude="-86.79068300000000135697" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="QxYVtNvjLVJQ7yvvN4ojrw==" availCount="10" onRequest="N">
+                <Board type="SIMPLE" code="BB-MX1" shortname="BB">BED AND BREAKFAST</Board>
+                <RoomType type="SIMPLE" code="SGL-MX1" characteristic="ST">SINGLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1909.980</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>PVP-TODOS</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NOR">STANDARD PRICING</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>17294</Code>
+            <Name>Caribe Internacional Cancun</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/01/017294/017294a_hb_a_001.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/01/017294/017294a_hb_w_002.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="2EST" shortname="2*">2 STARS</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="20">Downtown</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="11" />
+            <Position latitude="21.16260892089047374043" longitude="-86.82967216931149323500" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="2pAIBI5cGi0DsqrWDpoj1A==" availCount="5" onRequest="N">
+                <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="ST">DOUBLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1981.800</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>CGW-TODOSCBPVP</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="SPE">Special Offer</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>5178</Code>
+            <Name>Imperial Laguna Cancun</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/00/005178/005178a_hb_a_001.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/00/005178/005178a_hb_w_002.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="10">Hotel Zone / Zona Hotelera</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="11" />
+            <Position latitude="21.13242270780897769100" longitude="-86.75756499999999959982" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="Yk+kmdpsd1uK63znjKZMRA==" availCount="18" onRequest="N">
+                <Board type="SIMPLE" code="CB-MX1" shortname="CB">CONTINENTAL BREAKFAST</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="ST">DOUBLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1986.840</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>CGW-TODOS-CB</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="SPE">Special Offer</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>5178</Code>
+            <Name>Imperial Laguna Cancun</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/00/005178/005178a_hb_a_001.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/00/005178/005178a_hb_w_002.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="10">Hotel Zone / Zona Hotelera</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="11" />
+            <Position latitude="21.13242270780897769100" longitude="-86.75756499999999959982" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="MClYyL7Btc2ObDX1xvtsSQ==" availCount="19" onRequest="N">
+                <Board type="SIMPLE" code="CB-MX1" shortname="CB">CONTINENTAL BREAKFAST</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="ST">DOUBLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1986.840</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>NRF-TODOSCBB2B</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NRF">Non refundable rate</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>5178</Code>
+            <Name>Imperial Laguna Cancun</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/00/005178/005178a_hb_a_001.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/00/005178/005178a_hb_w_002.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="10">Hotel Zone / Zona Hotelera</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="11" />
+            <Position latitude="21.13242270780897769100" longitude="-86.75756499999999959982" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="lhVUjJIN7A5iP+1vCvFVYg==" availCount="20" onRequest="N">
+                <Board type="SIMPLE" code="CB-MX1" shortname="CB">CONTINENTAL BREAKFAST</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="ST">DOUBLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1986.840</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>CGW-MEXROB2B</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NOR">STANDARD PRICING</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>7893</Code>
+            <Name>Solymar Beach Resort</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/00/007893/007893a_hb_a_008.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/00/007893/007893a_hb_w_002.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="10">Hotel Zone / Zona Hotelera</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="12" />
+            <Position latitude="21.05247032338708024213" longitude="-86.78202003306580536446" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="9OhSD4h0zgPV6VsNMied7g==" availCount="99" onRequest="N">
+                <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+                <RoomType type="SIMPLE" code="SGL-MX1" characteristic="ST">SINGLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>1987.800</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>CGW-TODOSB2C</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NOR">STANDARD PRICING</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>140885</Code>
+            <Name>Del Sol</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/14/140885/140885a_hb_a_001.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/14/140885/140885a_hb_w_002.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="H2_5" shortname="2½*">2 STARS AND A HALF</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="20">Downtown</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="12" />
+            <Position latitude="21.03494923333101240814" longitude="-87.04389820462145621605" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="/y5+LzNRzgBDVmKsep0OUw==" availCount="8" onRequest="N">
+                <Board type="SIMPLE" code="CB-MX1" shortname="CB">CONTINENTAL BREAKFAST</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="ST">DOUBLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>2001.840</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>CGW-TODOS</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NOR">STANDARD PRICING</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>59159</Code>
+            <Name>Antillano</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/05/059159/059159a_hb_a_001.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/05/059159/059159a_hb_w_002.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="20">Downtown</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="9" />
+            <Position latitude="21.15987915872783275972" longitude="-86.82594639252090473747" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="EX7C7qtX2t3KLF897Ms7Og==" availCount="999" onRequest="N">
+                <Board type="SIMPLE" code="CB-MX1" shortname="CB">CONTINENTAL BREAKFAST</Board>
+                <RoomType type="SIMPLE" code="SGL-MX1" characteristic="ST">SINGLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>2001.840</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>PVP-TODOS</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NOR">STANDARD PRICING</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>8301</Code>
+            <Name>Posada Del Mar</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/00/008301/008301a_hb_w_003.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/00/008301/008301a_hb_p_002.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="50">Isla Mujeres</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="11" />
+            <Position latitude="21.25696483410844805917" longitude="-86.75018232212067914588" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="5B97qQ4McbabamiHjc+mBQ==" availCount="5" onRequest="N">
+                <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="ST">DOUBLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>2052.630</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="sXsRrbolx/ki7emj2a6NtQ==" availCount="5" onRequest="N">
+                <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="SU">DOUBLE SUPERIOR</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>2243.580</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="T0nL7RMnUIjE+02m2hWWCg==" availCount="5" onRequest="N">
+                <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+                <RoomType type="SIMPLE" code="DBL-MX1" characteristic="DX">DOUBLE DELUXE</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>2864.160</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+    <ServiceHotel xsi:type="ServiceHotel" availToken="1mVt1+o0WJBT+OroaGBEmwhR">
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+            <Contract>
+                <Name>PVP- TODOS</Name>
+                <IncomingOffice code="69"></IncomingOffice>
+                <Classification code="NOR">STANDARD PRICING</Classification>
+            </Contract>
+        </ContractList>
+        <DateFrom date="20140903" />
+        <DateTo date="20140906" />
+        <Currency code="MXN">Mexican Peso</Currency>
+        <PackageRate>N</PackageRate>
+        <TravelAgent>N</TravelAgent>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code>8503</Code>
+            <Name>Xbalamque Resort &amp; Spa</Name>
+            <ImageList>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>1</Order>
+                    <VisualizationOrder>1</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/00/008503/008503a_hb_a_006.jpg</Url>
+                </Image>
+                <Image>
+                    <Type>jpg</Type>
+                    <Order>2</Order>
+                    <VisualizationOrder>2</VisualizationOrder>
+                    <Url>http://www.hotelbeds.com/giata/small/00/008503/008503a_hb_a_007.jpg</Url>
+                </Image>
+            </ImageList>
+            <Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+            <Destination type="SIMPLE" code="CUN">
+                <Name>Cancun (and vicinity)</Name>
+                <ZoneList>
+                    <Zone type="SIMPLE" code="20">Downtown</Zone>
+                </ZoneList>
+            </Destination>
+            <ChildAge ageFrom="0" ageTo="12" />
+            <Position latitude="21.16171090399411980343" longitude="-86.82914800000003197056" />
+        </HotelInfo>
+        <AvailableRoom>
+            <HotelOccupancy>
+                <RoomCount>1</RoomCount>
+                <Occupancy>
+                    <AdultCount>1</AdultCount>
+                    <ChildCount>0</ChildCount>
+                </Occupancy>
+            </HotelOccupancy>
+            <HotelRoom SHRUI="w2Mzof7JDMvKrxiqu64CTQ==" availCount="10" onRequest="N">
+                <Board type="SIMPLE" code="RO-MX1" shortname="RO">ROOM ONLY</Board>
+                <RoomType type="SIMPLE" code="SGL-MX1" characteristic="ST">SINGLE STANDARD</RoomType>
+                <ProductType>P</ProductType>
+                <Price>
+                    <Amount>2053.200</Amount>
+                </Price>
+            </HotelRoom>
+        </AvailableRoom>
+    </ServiceHotel>
+</HotelValuedAvailRS>

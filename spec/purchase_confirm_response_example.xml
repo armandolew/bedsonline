@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PurchaseConfirmRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages PurchaseConfirmRS.xsd" echoToken="ruby8012345">
+  <AuditData>
+    <ProcessTime>2573</ProcessTime>
+    <Timestamp>2014-09-23 02:36:30.193</Timestamp>
+    <RequestHost>54.72.12.1</RequestHost>
+    <ServerName>FORM</ServerName>
+    <ServerId>FO</ServerId>
+    <SchemaRelease>2005/06</SchemaRelease>
+    <HydraCoreRelease>2014.07.9</HydraCoreRelease>
+    <HydraEnumerationsRelease>N/A</HydraEnumerationsRelease>
+    <MerlinRelease>N/A</MerlinRelease>
+  </AuditData>
+  <Purchase purchaseToken="O2599233202" timeToExpiration="1799984">
+    <Reference>
+      <FileNumber>2523537</FileNumber>
+      <IncomingOffice code="235">
+      </IncomingOffice>
+    </Reference>
+    <Status>BOOKING</Status>
+    <Agency>
+      <Code>146938</Code>
+      <Branch>2</Branch>
+    </Agency>
+    <Language>CAS</Language>
+    <CreationDate date="20140923"/>
+    <CreationUser>ALDILAMX146938</CreationUser>
+    <Holder type="AD">
+      <Age>0</Age>
+      <Name>RICARDO</Name>
+      <LastName>ECHAVARRIA</LastName>
+    </Holder>
+    <AgencyReference>146938</AgencyReference>
+    <ServiceList>
+      <Service xsi:type="ServiceHotel" SPUI="235#H#1">
+        <Reference>
+          <FileNumber>2523537-H1</FileNumber>
+          <IncomingOffice code="235">
+          </IncomingOffice>
+        </Reference>
+        <Status>CONFIRMED</Status>
+        <DirectPayment>N</DirectPayment>
+        <ContractList>
+          <Contract>
+            <Name>COM</Name>
+            <IncomingOffice code="235">
+            </IncomingOffice>
+            <CommentList>
+              <Comment type="CONTRACT">Minimum age to check in is 18BED/4F 1 Bunk Bed in a 4 Bed Female DormBED/BK  1 Bunk Bed in a 4 Bed Mixed DormPlease be advised this is a dorm style establishment all bookings are for a shared bed and shared bathroom accommodation.  (Private rooms and private bathrooms are not available).Resort fee (if applicable) is waived for all hotelbeds bookings</Comment>
+            </CommentList>
+          </Contract>
+        </ContractList>
+        <Supplier name="HOTELBEDS USA" vatNumber="592952685"/>
+        <CommentList>
+          <Comment type="SERVICE">Comment showing on our voucher</Comment>
+          <Comment type="INCOMING">Comment for the incoming office and the hotel</Comment>
+        </CommentList>
+        <DateFrom date="20141012"/>
+        <DateTo date="20141016"/>
+        <Currency code="MXN">Mexican Peso</Currency>
+        <TotalAmount>1367.440</TotalAmount>
+        <AdditionalCostList>
+          <Currency code="MXN">Mexican Peso</Currency>
+          <PvpEquivalent>1367.440</PvpEquivalent>
+          <AdditionalCost type="AG_COMMISSION">
+            <Price>
+              <Amount>191.440</Amount>
+            </Price>
+          </AdditionalCost>
+          <AdditionalCost type="COMMISSION_VAT">
+            <Price>
+              <Amount>0.000</Amount>
+            </Price>
+          </AdditionalCost>
+          <AdditionalCost type="COMMISSION_PCT">
+            <Price>
+              <Amount>14.000</Amount>
+            </Price>
+          </AdditionalCost>
+        </AdditionalCostList>
+        <ModificationPolicyList>
+          <ModificationPolicy>Cancellation</ModificationPolicy>
+          <ModificationPolicy>Confirmation</ModificationPolicy>
+          <ModificationPolicy>Modification</ModificationPolicy>
+        </ModificationPolicyList>
+        <HotelInfo xsi:type="ProductHotel">
+          <Code>121220</Code>
+          <Name>South Beach Hostel </Name>
+          <Category type="SIMPLE" code="2EST">2 ESTRELLAS</Category>
+          <Destination type="SIMPLE" code="MIA">
+            <Name>Miami Area - FL</Name>
+            <ZoneList>
+              <Zone type="SIMPLE" code="9">Miami Beach</Zone>
+            </ZoneList>
+          </Destination>
+        </HotelInfo>
+        <AvailableRoom>
+          <HotelOccupancy>
+            <RoomCount>1</RoomCount>
+            <Occupancy>
+              <AdultCount>1</AdultCount>
+              <ChildCount>0</ChildCount>
+              <GuestList>
+                <Customer type="AD">
+                  <CustomerId>1</CustomerId>
+                  <Age>30</Age>
+                  <Name>Ricardo</Name>
+                  <LastName>Echavarria</LastName>
+                </Customer>
+              </GuestList>
+            </Occupancy>
+          </HotelOccupancy>
+          <HotelRoom SHRUI="2lmllJ2SdvzxhqS3mddzSw==" availCount="1" status="CONFIRMED">
+            <Board type="SIMPLE" code="CB-U10">DESAYUNO CONTINENTAL</Board>
+            <RoomType type="SIMPLE" code="BED-U10" characteristic="BK">CAMA.HAB COMPARTIDA 1 LITERA</RoomType>
+            <ProductType>P</ProductType>
+            <Price>
+              <Amount>1367.440</Amount>
+            </Price>
+            <CancellationPolicies>
+              <CancellationPolicy amount="341.860" dateFrom="20141008" time="2359"/>
+            </CancellationPolicies>
+            <HotelRoomExtraInfo>
+              <ExtendedData>
+                <Name>INFO_ROOM_AGENCY_BOOKING_STATUS</Name>
+                <Value>O</Value>
+              </ExtendedData>
+              <ExtendedData>
+                <Name>INFO_ROOM_INCOMING_BOOKING_STATUS</Name>
+                <Value>O</Value>
+              </ExtendedData>
+            </HotelRoomExtraInfo>
+          </HotelRoom>
+        </AvailableRoom>
+      </Service>
+    </ServiceList>
+    <Currency code="MXN">
+    </Currency>
+    <PaymentData>
+      <PaymentType code="P">
+      </PaymentType>
+      <InvoiceCompany>
+        <Code>MXB</Code>
+        <Name>BEDSONLINE MEXICO</Name>
+        <RegistrationNumber>CTU940107CK8</RegistrationNumber>
+      </InvoiceCompany>
+      <Description>El importe total de esta factura PRO-FORMA debe obrar en poder de Club Turavia S.A. de C.V., Banco: Banamex/Banorte (Banco Mercantil del Norte)Cuenta: 001-3328005 CLABE (002 691 000133280133)/  0610889840 CLABE (072 691 006108898403),  SWIFT: BNMXMXMM/  MENOMXMT,  7 d&#237;as antes de la llegada de los clientes (excepto reservas de grupos. D&#237;as de antelaci&#243;n fijados en el momento de la confirmaci&#243;n). En la orden de pago rogamos indiquen nuestro n&#250;mero de referencia.    Gracias por su colaboraci&#243;n.</Description>
+    </PaymentData>
+    <TotalPrice>1367.440</TotalPrice>
+    <PendingAmount>1176.000</PendingAmount>
+  </Purchase>
+</PurchaseConfirmRS>

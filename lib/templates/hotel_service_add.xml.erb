@@ -1,0 +1,25 @@
+<ServiceAddRQ xmlns="http://www.hotelbeds.com/schemas/2005/06/messages"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages ServiceAddRQ.xsd"
+    version="2013/12">
+    <Language>CAS</Language>
+    <Credentials>
+        <User><%= username %></User>
+        <Password><%= password %></Password>
+    </Credentials>
+    <Service availToken="<%= avail_token %>" xsi:type="ServiceHotel">
+        <ContractList>
+            <Contract>
+                <Name><%= contract_name %></Name>
+                <IncomingOffice code="<%= incoming_office_code %>"/>
+            </Contract>
+        </ContractList>
+        <DateFrom date="<%= date_from %>"/>
+        <DateTo date="<%= date_to %>"/>
+        <HotelInfo xsi:type="ProductHotel">
+            <Code><%= code %></Code>
+            <Destination code="<%= destination_code %>" type="<%= destination_type %>"/>
+        </HotelInfo>
+        <%= available_room %>
+    </Service>
+</ServiceAddRQ>
